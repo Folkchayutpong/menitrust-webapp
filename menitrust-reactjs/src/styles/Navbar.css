@@ -1,11 +1,13 @@
 .navbar {
-    height: 100px;
+    position: fixed;
+    height: 120px;
     width: 100%;
     display: flex;
-    background-color: grey;
-    font-size: 1.5rem;
+    background: transparent;
+    flex-direction: row;
 
 }
+
 
 .navbar .leftSide {
     flex: 50%;
@@ -15,14 +17,44 @@
     padding-left: 250px;
 }
 
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg) scale(1);
+    }
+
+    to {
+        transform: rotate(360deg) scale(1.4);
+    }
+}
+
+@keyframes rotateBack {
+    from {
+        transform: rotate(360deg) scale(1.4);
+    }
+
+    to {
+        transform: rotate(0deg) scale(1);
+    }
+}
+
+
 .navbar .leftSide img {
     width: 70px;
     border-radius: 50%;
+    transition: transform 0.5s ease-in-out;
 }
+
 
 .navbar .leftSide img:hover {
     cursor: pointer;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3)
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    animation: rotate 1s forwards;
+}
+
+
+.navbar .leftSide img:not(:hover) {
+    animation: rotateBack 1s forwards;
 }
 
 .navbar .rightSide {
@@ -33,12 +65,15 @@
     justify-content: center;
 }
 
-.navbar .rightSide a {
+.navbar a {
     margin: 50px;
     text-decoration: none;
-    color: white;
+    color: rgb(201, 121, 50);
+    font-size: 30px;
 }
 
-.navbar .rightSide a:hover {
+.navbar a:hover {
     text-decoration: underline;
+    text-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+
 }

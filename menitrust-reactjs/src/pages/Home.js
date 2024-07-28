@@ -1,11 +1,11 @@
 import React from 'react'
-import banner from '../assets/home-banner.jpg'
+import rmbanner from '../assets/home-banner-removebg-preview.png'
 import { Link } from 'react-router-dom'
 import '../styles/Home.css'
 
 function Home() {
   return (
-    <div className='home' style={{ backgroundImage: `url(${banner})` }}>
+    <div className='home'>
       <div className='headerContainer'>
         <Link to="/about">
           <button>About Us</button>

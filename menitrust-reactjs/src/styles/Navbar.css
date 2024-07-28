@@ -3,7 +3,10 @@
     height: 120px;
     width: 100%;
     display: flex;
-    background: transparent;
+    /* background: transparent; */
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 30px rgba(227, 228, 237, 0.37);
+    border: 2px solid rgba(255, 255, 255, 0.18);
     flex-direction: row;
 
 }
@@ -68,12 +71,12 @@
 .navbar a {
     margin: 50px;
     text-decoration: none;
-    color: rgb(201, 121, 50);
+    color: rgb(241, 200, 16);
     font-size: 30px;
 }
 
 .navbar a:hover {
     text-decoration: underline;
-    text-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    text-shadow: 0 10px 15px rgba(200, 166, 12, 0.5);
 
 }

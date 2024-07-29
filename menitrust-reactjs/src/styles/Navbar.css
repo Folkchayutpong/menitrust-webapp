@@ -3,11 +3,18 @@
     height: 120px;
     width: 100%;
     display: flex;
-    /* background: transparent; */
     backdrop-filter: blur(5px);
     box-shadow: 0 0 30px rgba(227, 228, 237, 0.37);
     border: 2px solid rgba(255, 255, 255, 0.18);
     flex-direction: row;
+
+}
+
+.navbar .leftSide .bandName {
+    color: rgb(241, 200, 16);
+    text-shadow: 0 4px 3px rgba(0, 0, 0, 0.75);
+    font-weight: bold;
+    font-size: 2rem;
 
 }
 
@@ -45,13 +52,13 @@
 .navbar .leftSide img {
     width: 70px;
     border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.75);
     transition: transform 0.5s ease-in-out;
 }
 
 
 .navbar .leftSide img:hover {
     cursor: pointer;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
     animation: rotate 1s forwards;
 }
 
@@ -72,11 +79,11 @@
     margin: 50px;
     text-decoration: none;
     color: rgb(241, 200, 16);
+    text-shadow: 0 4px 3px rgba(0, 0, 0, 0.75);
+    font-weight: bold;
     font-size: 30px;
 }
 
 .navbar a:hover {
     text-decoration: underline;
-    text-shadow: 0 10px 15px rgba(200, 166, 12, 0.5);
-
 }

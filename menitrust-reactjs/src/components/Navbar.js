@@ -19,6 +19,7 @@ function Navbar() {
                 <Link to='/'>
                     <img src={logo} alt="Logo" />
                 </Link>
+                <div className='bandName'><span>Men I Trust</span></div>
                 {/* <div className='hiddenLinks'>
                     <Link to='/'>Home</Link>
                     <Link to='/about'>About</Link>

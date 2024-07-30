@@ -1,7 +1,44 @@
 .footer {
-    height: 100px;
+    bottom: 0;
+    height: 200px;
     width: 100%;
     display: flex;
-    background-color: grey;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(241, 200, 16);
+    color: white;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
 
+
+}
+
+.footer .social-logo svg {
+    fill: white;
+    margin: 5px;
+    font-size: 3rem;
+    filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.3));
+    transition: filter 0.3s;
+    cursor: pointer;
+}
+
+.footer .social-logo svg:hover {
+    filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.5));
+}
+
+
+.footer .important {
+    color: rgb(255, 255, 255);
+    text-shadow: 0 4px 3px rgba(0, 0, 0, 0.75);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.footer .note span {
+    font-size: 1.2rem;
+    display: flex;
+    text-align: center;
+    color: white;
+    text-shadow: 0 4px 3px rgba(0, 0, 0, 0.75);
 }

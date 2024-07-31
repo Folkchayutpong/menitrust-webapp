@@ -1,0 +1,60 @@
+.music-container {
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(227, 227, 227);
+    position: relative;
+
+}
+
+.titleA {
+    position: absolute;
+    top: 150px;
+    text-decoration: underline;
+}
+
+.albums {
+    border: 2px solid green;
+    position: absolute;
+    top: 150px;
+    width: 75%;
+    height: 35%;
+    display: flex;
+    align-items: center;
+}
+
+.titleB {
+    position: absolute;
+    bottom: 70vh;
+    text-decoration: underline;
+}
+
+.eps {
+    border: 2px solid pink;
+    position: absolute;
+    bottom: 200px;
+    width: 75%;
+    height: 30%;
+    display: flex;
+}
+
+.anAlbum {
+    margin: 20px;
+    border: 2px solid;
+    width: 75%;
+    height: 75%;
+}
+
+.eps {
+    align-items: center;
+    justify-content: center;
+}
+
+.anEp {
+    margin: 20px;
+    border: 2px solid;
+    width: 22%;
+    height: 80%;
+}

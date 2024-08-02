@@ -12,6 +12,15 @@
     position: absolute;
     top: 175px;
     right: 400px;
+
+}
+
+.menitrust a {
+    text-decoration: none;
+    color: black;
+}
+
+.menitrust a:hover {
     text-decoration: underline;
 }
 
@@ -49,21 +58,6 @@
 .p1 b {
     color: rgb(214, 178, 18);
     font-weight: bold;
-}
-
-.source {
-    position: absolute;
-    right: 70px;
-}
-
-.source a {
-    text-decoration: none;
-    color: black;
-}
-
-.source a:hover {
-    text-decoration: underline;
-
 }
 
 .members {

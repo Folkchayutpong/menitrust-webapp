@@ -16,7 +16,7 @@ function Footer() {
       </div>
       <div className='important'>Important!</div>
       <div className='note'><span> This website is a learning project for educational purposes only and is not affiliated with Men I Trust in any way.
-        <br />Do not use it for commercial purposes or in any misleading manner. For official information or to contact Men I Trust, please visit their official social media channels.</span>
+        <br />Do not use this for commercial purposes or in any misleading manner. For official information or to contact Men I Trust, please visit their official social media channels.</span>
       </div>
     </div>
   )

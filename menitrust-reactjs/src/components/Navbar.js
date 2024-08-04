@@ -31,7 +31,6 @@ function Navbar() {
                 <Link to='/'>Home</Link>
                 <Link to='/about'>About</Link>
                 <Link to='/music'>Music</Link>
-                <Link to='/contact'>Contact</Link>
                 {/* <button onClick={toggleNavbar}>
                     <span className="material-symbols-outlined">Menu</span>
                 </button> */}
